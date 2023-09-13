@@ -3,3 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+}
+
+.carosel{
+  height: 100%;
+  position: relative;
+}
+
+.box-img{
+  height: 100%;
+}
+
+.box-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hide{
+  display: none;
+}
+
+.arrow{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.arrow-top{
+  left: 94%;
+  top: 15px;
+}
+
+.arrow-bot{
+  left: 94%;
+  bottom: 15px;
+}
