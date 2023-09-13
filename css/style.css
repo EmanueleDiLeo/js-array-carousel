@@ -24,12 +24,14 @@ main{
 
 .box-img{
   height: 100%;
+  /* position: relative; */
 }
 
 .box-img img{
   height: 100%;
   width: 100%;
   object-fit: cover;
+  /* position: absolute; */
 }
 
 .hide{
