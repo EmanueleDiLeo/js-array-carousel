@@ -36,7 +36,7 @@ arrowTop.addEventListener("click", function(){
     console.log(itemsImg[indexImg]);
   }
 
-  itemsImg[itemsImg].classList.remove("hide");
+  itemsImg[indexImg].classList.remove("hide");
 
 
 });
@@ -57,7 +57,7 @@ arrowBot.addEventListener("click", function(){
    }
 
 
-  itemsImg[itemsImg].classList.remove("hide");
+  itemsImg[indexImg].classList.remove("hide");
 
 });
 
